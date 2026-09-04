@@ -1,0 +1,22 @@
+#textexemplo {
+    color: rgb(255, 71, 178);
+    font-size: 20px;
+}
+  
+h1, h2, h3 {
+    font-family: Comic Sans MS;
+    font-weight: bold; 
+    color:blue;
+}
+
+.talicoLinha {
+    font-style: italic;
+    border-bottom: solid;
+}
+
+#destaque {
+    font-size: 75%;
+    font-weight: bold;
+    color: rgb(234, 255, 5);
+    background-color:rgb(255, 70, 224)
+}
