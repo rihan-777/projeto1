@@ -1,0 +1,83 @@
+/* Importação da fonte Dosis do Google Fonts (Imagem 05) */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+/* Reset global para eliminar espaçamentos indesejados (Imagem 05) */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* Configuração do fundo e tamanho da fonte padrão do corpo da página (Imagem 05) */
+body {
+    background-color: black;
+    font-size: 20px;
+}
+
+/* ============================================================
+   ESTILIZAÇÃO DO TOPO DA FICHA (Imagem 07)
+   ============================================================ */
+
+/* Ocupa a largura total da janela e centraliza o bloco com flexbox */
+.topo {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+/* Contêiner da ficha com fundo cinza-claro e grade de 3 colunas */
+.conteiner-topo {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    width: 900px;
+    height: 150px;
+    border: 1px solid red;
+}
+
+/* Espaçamento interno das divisões dentro do contêiner */
+.conteiner-topo>div {
+    padding: 10px;
+}
+
+/* Formatação e alinhamento dos textos dos rótulos */
+.conteiner-topo>div p {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Formatação dos campos de entrada de texto */
+.conteiner-topo>div input {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.conteiner-conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid rgb(238, 0, 255);
+    color:rgb(252, 118, 181)
+}
+
+.sessao-conteudo-principal {
+    width: 900px;
+    height: 500px;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+}
+
+.conteiner-modificadores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid blue;
+}
